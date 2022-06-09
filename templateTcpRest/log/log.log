@@ -1,0 +1,23 @@
+2022-06-08T10:07:57,571 INFO  [RMI TCP Connection(5)-127.0.0.1]: AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring 
+2022-06-08T10:07:57,941 INFO  [RMI TCP Connection(5)-127.0.0.1]: HikariDataSource                     - HikariPool-1 - Starting... 
+2022-06-08T10:07:58,122 INFO  [RMI TCP Connection(5)-127.0.0.1]: HikariDataSource                     - HikariPool-1 - Start completed. 
+2022-06-08T10:07:58,161 INFO  [RMI TCP Connection(5)-127.0.0.1]: calContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default' 
+2022-06-08T10:07:58,185 INFO  [RMI TCP Connection(5)-127.0.0.1]: LogHelper                            - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+2022-06-08T10:07:58,363 INFO  [RMI TCP Connection(5)-127.0.0.1]: Version                              - HHH000412: Hibernate Core {5.2.6.Final} 
+2022-06-08T10:07:58,368 INFO  [RMI TCP Connection(5)-127.0.0.1]: Environment                          - HHH000206: hibernate.properties not found 
+2022-06-08T10:07:58,501 INFO  [RMI TCP Connection(5)-127.0.0.1]: Version                              - HCANN000001: Hibernate Commons Annotations {5.0.1.Final} 
+2022-06-08T10:07:58,765 INFO  [RMI TCP Connection(5)-127.0.0.1]: Dialect                              - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect 
+2022-06-08T10:07:58,902 INFO  [RMI TCP Connection(5)-127.0.0.1]: LobCreatorBuilderImpl                - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException 
+2022-06-08T10:07:58,908 INFO  [RMI TCP Connection(5)-127.0.0.1]: BasicTypeRegistry                    - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@750ed37f 
+2022-06-08T10:07:59,649 WARN  [RMI TCP Connection(5)-127.0.0.1]: SqlExceptionHelper                   - SQL Warning Code: 0, SQLState: 00000 
+2022-06-08T10:07:59,649 WARN  [RMI TCP Connection(5)-127.0.0.1]: SqlExceptionHelper                   - constraint "uk_qqsu4dm6goy13a2eglrrq0dxf" of relation "sensor" does not exist, skipping
+2022-06-08T10:07:59,674 INFO  [RMI TCP Connection(5)-127.0.0.1]: calContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2022-06-08T10:08:06,169 WARN  [http-nio-8080-exec-4]: PageNotFound                         - No mapping found for HTTP request with URI [/api] in DispatcherServlet with name 'dispatcher' 
+2022-06-08T10:08:07,173 WARN  [http-nio-8080-exec-5]: PageNotFound                         - No mapping found for HTTP request with URI [/api/persons/all] in DispatcherServlet with name 'dispatcher' 
+2022-06-08T10:08:46,037 INFO  [http-nio-8080-exec-8]: AppUsersController                   - In check 
+2022-06-08T10:08:46,098 INFO  [http-nio-8080-exec-8]: QueryTranslatorFactoryInitiator      - HHH000397: Using ASTQueryTranslatorFactory 
+2022-06-08T10:08:49,533 INFO  [http-nio-8080-exec-9]: AppUsersController                   - In check 
+2022-06-08T10:10:08,277 INFO  [main]: HikariDataSource                     - null - Shutdown initiated... 
+2022-06-08T10:10:08,279 INFO  [main]: HikariDataSource                     - null - Shutdown completed. 

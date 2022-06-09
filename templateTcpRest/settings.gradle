@@ -1,0 +1,9 @@
+rootProject.name = 'templateTcpRest'
+include 'monitor-core'
+include 'monitor-web'
+include 'monitor-web'
+include 'monitor-web'
+include 'sensor-app'
+include 'server-app'
+include 'common-app'
+
